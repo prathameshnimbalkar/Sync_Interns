@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+  }
+  body {
+    background-color:rgb(40,40,40);
+    background-size: contain;
+    background-attachment: fixed;
+    color: white;
+    overflow-x: hidden;
+  }
+  nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 5%;
+    padding-top: 2%;
+  }
+  nav ul{
+    display: flex;
+    list-style: none;
+  }
+  nav ul li{
+    padding: 8px 15px;
+    border-radius: 10px;
+    transition: 0.2s ease-in;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+  }
+  nav ul li a:hover{
+    color: rgb(240,213,150)}
+
+  .column1 {
+    position: absolute;
+    padding-left: 20%;
+    height: 10%;
+  }
+   .column2 {
+    padding-top: 1%;
+    padding-left: 25%;
+    font-family: 'Manrope', sans-serif;
+  }
+  .column2 h1 {
+    position: relative;
+    font-size: 40px;
+    margin-top: 10px;
+    justify-content: center;
+
+  }
+  .column3{
+    position: relative;
+    font-size: 20px;
+    top: 300px;
+    left: 22%;
+    font-family: "Manrope", sans-serif;
+  }
+  .product1{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    bottom: 30%;
+    justify-content: center;
+    right: 30%;
+    left: 420px;
+    top: 180px;
+  }
+  .head{
+    position: relative;
+    left: 65%;
+    top: 125px;
+    font-family: 'Work Sans', sans-serif;
+  }
+
+  .text{
+    position: relative;
+    left: 65%;
+    width: 30%;
+    top: 145px;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  .btn {
+    position: relative;
+    left: 65%;
+    top: 130px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    height: 45px;
+    border-radius: 4px;
+    width: 150px;
+    letter-spacing: 1px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: transparent;
+    color: #fff;
+    transition: all 250ms linear;
+    text-decoration: none;
+    margin-top: 50px;
+  }
+  .btn:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+    background-color: #333;
+    transition: background-color 250ms 300ms ease;
+  }
+  .btn:hover {
+    box-shadow: 0 12px 35px 0 rgba(16, 39, 112, 0.25);
+    background-color: rgb(240,213,150);
+    color: rgb(0, 0, 0);
+  }
