@@ -1,1 +1,11 @@
+Quiz App
+This is a README file for a Quiz App built using HTML, CSS, and JavaScript. The app allows users to take quizzes and test their knowledge on various topics.
 
+Getting Started
+To use the Quiz App, simply open the index.html file in a web browser. The app will load, and you can start taking quizzes immediately.
+
+Customization
+You can customize the Quiz App to suit your needs. To add or modify quizzes, open the script.js file and update the quiz questions, options, and correct answers. You can also modify the styling by editing the CSS in the styles.css file.
+
+Dependencies
+The Quiz App is built using HTML, CSS, and JavaScript. No additional libraries or frameworks are required.
